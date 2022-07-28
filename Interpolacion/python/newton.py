@@ -33,5 +33,4 @@ fi =[33.956 ,37.743 ,39.434 ,40.847, 46.816 ]
 coef , p = newton(xi,fi)
 
 print(coef)
-
 print(p)
