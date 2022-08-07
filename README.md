@@ -7,3 +7,9 @@ Métodos numéricos en MATLAB | Python | R
   - Newton (Matlab | Python | R )
   - Lagrange (Matlab | Python | R )
   - Hermite ( Matlab | Python | R )
+
+
+## Resolución de sistemas
+
+  - Crout ( Matlab | R )
+  - 
