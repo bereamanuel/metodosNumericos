@@ -5,3 +5,10 @@ fi =[33.956 37.743 39.434 40.847 46.816 ];
 [coef,pnew] = newton(xi,fi);
 
 [plag] = lagrange(xi,fi);
+
+
+xi =[0 .5 1];
+fi =[1 .9385 .7652 ];
+dfi =[0 -.2423 -.4401 ];
+
+p= hermite(xi ,fi ,dfi)

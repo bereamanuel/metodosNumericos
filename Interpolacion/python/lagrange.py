@@ -1,4 +1,10 @@
 def lagrange(xi,fi):
+    """
+    Función para calcular el polinomio de interpolación de lagrange
+    Necesitamos los puntos y sus valores para poder ejecutarla.
+    
+    Como output, vamos a obtener el polinomio. 
+    """
     import numpy as np
     import sympy as sym
     xi = xi

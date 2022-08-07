@@ -1,4 +1,10 @@
 def newton(xi,fi):
+    """
+    Función para calcular la interpolación de Newton.
+    Necesitamos los puntos y sus valores para poder ejecutarla.
+    
+    Como output, vamos a obtener los coeficientes y el polinomio. 
+    """
     import numpy as np
     import pandas as pd
     import sympy as sym
