@@ -7,7 +7,7 @@ Métodos numéricos en MATLAB | Python | R
   - Newton (Matlab | Python | R )
   - Lagrange (Matlab | Python | R )
   - Hermite ( Matlab | Python | R )
-  -  Splines ( R )
+  -  Splines ( Matlab | R )
 
 
 ## Resolución de sistemas
