@@ -12,5 +12,5 @@ Métodos numéricos en MATLAB | Python | R
 
 ## Resolución de sistemas
 
-  - Crout ( Matlab | Python | R )
+  - Crout tridiagonales ( Matlab | Python | R )
   - 
