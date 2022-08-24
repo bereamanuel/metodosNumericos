@@ -1,28 +1,33 @@
 Crout <- function(dP ,dS ,dI ,b){
-
-    n <- length (dP)
-
-    # 1. Obtención de las matrices L y U tales que A = LU
-    l(1)<-dP[,1]
-    u(1)<-dS[,1]/l[1]
-
-    for (i in seq(2,n -1) ){
-        l(i)<-dP[,i]-dI[,i -1]*u[i -1]
-        u(i)<-dS[,i]/l[i]
-    }
-    l(n) <- dP[,n]-dI[,n -1]*u[n -1]
+  #dP diag of matrix to solve
+  #dS diag sup mtrix to solve
+  #dI diag Inf matrix to solve
+  #b vector independent
     
-    # 2. Solución del sistema Lz = b
-
-    z(1) <- b(1)/l(1)
-    for (i in seq(2,n) ){
-        z(i)<-(1/ l[i])*(b[i]-dI[,i -1]*z[i -1])
-    }
- 
-    # 3. Solución del sistema Ux = z
-    x[n]<-z[n];
-    for (i in seq(n -1,1, -1) ) {
-        x[i]<-z[i]-u[i]*x[i+1];
-    }
-    return(x)
+  n <- length (dP)
+  
+  l <- matrix(0,n,n)
+  u <- matrix(0,n,n)
+  z <- vector(length = n)
+  # 1. Obtención de las matrices L y U tales que A = LU
+  l[1,1]<-dP[1]
+  u[1,2]<-dS[1]/l[1,1]
+  
+  for (i in seq(2,n - 1) ){
+    l[i,i-1] <- dP[i-1]
+    l[i,i] <- dP[i]-l[i,i-1]*u[i -1,i]
+    u[i,i+1] <- dP[i+1]/l[i,i]
+  }
+  
+  l[n,n-1] <- dP[n-1]
+  l[n,n] <- dP[n]-l[n,n-1]*u[n -1,n]
+  
+  # 2. Solución del sistema Lz = b
+  
+  z <- solve(l)%*%b
+  
+  # 3. Solución del sistema Ux = z
+  x <- solve(u)%*%z
+  
+  return(x)
 }
