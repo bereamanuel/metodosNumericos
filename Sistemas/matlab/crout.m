@@ -1,5 +1,8 @@
 function x= Crout (dP ,dS ,dI ,b)
-
+    %diag of matrix to solve
+    %dS diag sup mtrix to solve
+    %dI diag Inf matrix to solve
+    %b vector independent
     n= length (dP);
     % 1. Obtención de las matrices L y U tales que A = LU
     l(1)=dP (1);

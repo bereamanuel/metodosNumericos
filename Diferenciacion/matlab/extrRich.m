@@ -1,4 +1,10 @@
 function [df] = extrRich(xi, f, h, O)
+%Implementación del derivada por extrapolación de Richardson. 
+%xi es el vector de puntos, deben estar equiespaciados.
+%f es la función a derivar.
+%h es el paso que queremos aplicar.
+%orden es el orden de error que queremos cometer.
+
 xi = xi(:);
 if O == 1
 df = (1/h)*(f(xi+h)-f(xi)) ;  

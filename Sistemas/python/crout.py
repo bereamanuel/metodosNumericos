@@ -1,9 +1,17 @@
 def Crout(dP ,dS ,dI ,b):
     import numpy as np
-    #dP diag of matrix to solve
-    #dS diag sup mtrix to solve
-    #dI diag Inf matrix to solve
-    #b vector independent
+    """
+    Función para resolver un sistema de una matriz tridiagonal.
+    Necesitamos las tres diagonales y el vector independiente.
+        -dP diag of matrix to solve
+        -dS diag sup mtrix to solve
+        -dI diag Inf matrix to solve
+        -b vector independent
+    
+    Como output, vamos a obtener el resultado de la solución. 
+    """
+
+    
     n = len(b)
     l = np.zeros(n)
     u = np.zeros(n)

@@ -1,6 +1,22 @@
 import math 
 
 def derivadaTaylor(xi,f = lambda x : x, orden = 1, index = None, sol = None):
+    """
+    Vamos a implementar el método de diferenciación por Taylor.
+
+    Input: 
+        - xi: Vector de puntos.
+        - f: función a diferenciar.
+        - orden: orden de la derivada.
+        - index: Lugar donde aparece el punto que queremos estimar. 
+        Por ejemplo, si tenemos [0,0.25,0.5,0.75,1] y queremos calcular el error para 0.5,
+        entonces index debe ser 2, ya que aparece en la posición 2, [0 1 2 3 4]
+        - sol: El valor que toma la derivada en el punto que queremos calcular el error.
+
+    Output:
+        - Diccionario con los resultados de la extrapolación, en caso de rellenar index y sol, nos devuelve
+        un vector con los errores cometidos en cada uno de los métodos
+    """
     import numpy as np
     import math
     xi = np.array(xi)

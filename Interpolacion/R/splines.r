@@ -1,7 +1,6 @@
-
-library("polynom")
-
 splinesCubicos  <- function(xi,fi){
+    #Implementación de los splines cúbicos.
+    #Obtenemos los coeficientes.
     n  <- length(xi)
     #Definimos h_i =  x_{i+1} - x_i
     hi  <- diff(xi)

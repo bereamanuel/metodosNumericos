@@ -1,4 +1,9 @@
 function [dph, dph2, drh, drh2, dch2, dch4] = derivadaTaylor(xi, f, orden)
+%Implementación del derivada por Taylor. 
+%xi es el vector de puntos, deben estar equiespaciados.
+%f es la función a derivar.
+%orden es el orden de la derivada.
+
 xi = xi(:);
 n  =  length(xi);
 fi =  f(xi) ;

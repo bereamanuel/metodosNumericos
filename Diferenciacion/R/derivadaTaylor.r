@@ -1,4 +1,8 @@
 derivadaTaylor  <- function(xi, f, orden){
+    #Implementación del derivada por Taylor. 
+    #xi es el vector de puntos, deben estar equiespaciados.
+    #f es la función a derivar.
+    #orden es el orden de la derivada.
 
     n  <-  length(xi)
 
