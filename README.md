@@ -9,6 +9,9 @@ Métodos numéricos en MATLAB | Python | R
   - Hermite ( Matlab | Python | R )
   - Splines ( Matlab | Python | R )
 
+## Diferenciación
+  
+  - Diferenciación de alta precisión: Taylor derivada orden 1, 2 y 3 ( Python )
 
 ## Resolución de sistemas
 
