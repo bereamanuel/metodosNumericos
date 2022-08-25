@@ -4,12 +4,8 @@ derivadaTaylor  <- function(xi, f, orden){
 
     #Gerenamos los valores de los nodos en la función
     fi  <-  sapply(xi, f)
-
-    print(fi)
-    print(f)
     #Los nodos deben ser equiespaciados
     h  <-  xi[2]-xi[1]
-    print(h)
     if (orden == 1){
         #Generamos la derivada progresivas de orden 1, con 1 y 2 pasos.
         dph  <-  (1/h)*(fi[2:n] - fi[1:(n-1)])
