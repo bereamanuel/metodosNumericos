@@ -11,7 +11,7 @@ Métodos numéricos en MATLAB | Python | R
 
 ## Diferenciación
   
-  - Diferenciación de alta precisión: Taylor derivada orden 1, 2 y 3 ( Python )
+  - Diferenciación de alta precisión: Taylor derivada orden 1, 2 y 3 ( Python | R )
   - Extrapolación de Richardson (  )
 
 ## Resolución de sistemas
