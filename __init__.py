@@ -1,5 +1,3 @@
-__init__.py
-
 Interpolacion/python/hermite.py
 Interpolacion/python/lagrange.py
 Interpolacion/python/newton.py
