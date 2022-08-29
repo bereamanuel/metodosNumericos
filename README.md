@@ -23,7 +23,8 @@ Métodos numéricos en MATLAB | Python | R
       - Método de Simpson simple ( Matlab | Python | R )
       - Método de Simpson compuesto ( Matlab | Python | R )
     - Métodos abiertos:
-      - Punto medio
+      - Punto medio simple ( Matlab | Python | R )
+      - Punto medio compuesto ( Matlab | Python | R )
   - Nodos no equiespaciados, cuadraturas de Gauss:
       - Gauss-Legendre
       - Gauss-Hermite
