@@ -14,6 +14,20 @@ Métodos numéricos en MATLAB | Python | R
   - Diferenciación de alta precisión: Taylor derivada orden 1, 2 y 3 ( Matlab | Python | R )
   - Extrapolación de Richardson ( Matlab | Python | R )
 
+## Integración Simple y múltiple
+
+  - Nodos equiespaciados, fórmulas de Newton-Cotes:
+    - Métodos cerrados:
+      - Método de los trapecios
+      - Método de Simpson
+    - Métodos abiertos:
+      - Punto medio
+  - Nodos no equiespaciados, cuadraturas de Gauss:
+    - Gauss-Legendre
+    - Gauss-Hermite
+    - Gauss-Chebyshev
+    - Gauss-Laguerre
+
 ## Resolución de sistemas
 
   - Crout tridiagonales ( Matlab | Python | R )
