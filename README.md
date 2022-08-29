@@ -3,19 +3,16 @@
 Métodos numéricos en MATLAB | Python | R
 
 ## Interpolación
-
   - Newton ( Matlab | Python | R )
   - Lagrange ( Matlab | Python | R )
   - Hermite ( Matlab | Python | R )
   - Splines ( Matlab | Python | R )
 
 ## Diferenciación
-  
   - Diferenciación de alta precisión: Taylor derivada orden 1, 2 y 3 ( Matlab | Python | R )
   - Extrapolación de Richardson ( Matlab | Python | R )
 
 ## Integración Simple y múltiple
-
   - Nodos equiespaciados, fórmulas de Newton-Cotes:
     - Métodos cerrados:
       - Método de los trapecios simple ( Matlab | Python | R )
@@ -33,11 +30,9 @@ Métodos numéricos en MATLAB | Python | R
       - Gauss-Laguerre
 
 ## Resolución de sistemas
-
   - Crout tridiagonales ( Matlab | Python | R )
 
 
-## Polinomios "especiales"
-Funciones que nos ayudan a conseguir las raices y los coeficientes necesarios para hacer cuadraturas de Gauss
-
+## Polinomios
+Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss
   - Legendre ( Python )
