@@ -23,10 +23,10 @@ Métodos numéricos en MATLAB | Python | R
     - Métodos abiertos:
       - Punto medio
   - Nodos no equiespaciados, cuadraturas de Gauss:
-    - Gauss-Legendre
-    - Gauss-Hermite
-    - Gauss-Chebyshev
-    - Gauss-Laguerre
+      - Gauss-Legendre
+      - Gauss-Hermite
+      - Gauss-Chebyshev
+      - Gauss-Laguerre
 
 ## Resolución de sistemas
 
