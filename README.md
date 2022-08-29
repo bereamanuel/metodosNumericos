@@ -25,6 +25,7 @@ Métodos numéricos en MATLAB | Python | R
     - Métodos abiertos:
       - Punto medio simple ( Matlab | Python | R )
       - Punto medio compuesto ( Matlab | Python | R )
+
   - Nodos no equiespaciados, cuadraturas de Gauss:
       - Gauss-Legendre
       - Gauss-Hermite
@@ -34,3 +35,9 @@ Métodos numéricos en MATLAB | Python | R
 ## Resolución de sistemas
 
   - Crout tridiagonales ( Matlab | Python | R )
+
+
+## Polinomios "especiales"
+Funciones que nos ayudan a conseguir las raices y los coeficientes necesarios para hacer cuadraturas de Gauss
+
+  - Legendre ( Python )
