@@ -12,6 +12,8 @@ def trapeciosC(f,a,b,n):
 
     pesos= np.insert(np.insert(np.repeat(2, n-1), 0,1),n,1)
 
-    return(h/2*sum(pesos*f(x)) )
+    return(h/2*sum(pesos*np.vectorize(f)(x)) )
 
-print(trapeciosC(lambda x: x+3 ,-1, 4, 30))
+from math import *
+
+print(trapeciosC(lambda x: sin(x)*exp(-x) ,0, pi/2, 8))

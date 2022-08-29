@@ -15,7 +15,8 @@ def simpsonC(f,a,b,n):
         else:
             fi.append(4*f(x[i]))
     fi.append(f(x[n]))
-    print(fi)
     return( (h/3)*sum(fi)  )
 
-print(simpsonC(lambda x: x+3 ,-1, 4, 30))
+from math import *
+
+print(simpsonC(lambda x: sin(x)*exp(-x) ,0, pi/2, 30))

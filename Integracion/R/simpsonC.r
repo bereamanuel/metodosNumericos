@@ -17,7 +17,7 @@ simpsonC <- function(f,a,b,n){
     }
   }
   fi <- c(fi, f(b))
-  print(fi)
   return( (h/3)*sum(fi)  )
 }
-print(simpsonC(function(x) x+3 ,-1, 4, 30))
+
+print(simpsonC(function(x) sin(x)*exp(-x) ,0, pi/2, 30))

@@ -12,4 +12,4 @@ trapeciosC <- function(f,a,b,n){
     return( h/2*sum(pesos*f(x)) )
 }
 
-print(trapeciosC(function(x) x+3 , -1, 4, 30))
+print(trapeciosC(function(x) sin(x)*exp(-x) ,0, pi/2, 30))
