@@ -1,5 +1,4 @@
 def simpsonC(f,a,b,n):
-    
     # Fórmula de Simpson Compuesto
     # INPUTS:
     # f: función a integrar
