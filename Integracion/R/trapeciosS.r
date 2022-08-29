@@ -5,7 +5,7 @@ trapeciosS <- function(f,a,b){
     # a: Inicio del intervalo
     # b: Fin del intervalo
 
-    h=(b-a)
+    h <- (b-a)
 
     return( h/2*(f(a)+f(b)) )
 

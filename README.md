@@ -18,9 +18,10 @@ Métodos numéricos en MATLAB | Python | R
 
   - Nodos equiespaciados, fórmulas de Newton-Cotes:
     - Métodos cerrados:
-      - Método de los trapecios simple    ( Matlab | Python | R )
+      - Método de los trapecios simple ( Matlab | Python | R )
       - Método de los trapecios compuesto ( Matlab | Python | R )
-      - Método de Simpson
+      - Método de Simpson simple ( Matlab | Python | R )
+      - Método de Simpson compuesto ( Matlab | Python | R )
     - Métodos abiertos:
       - Punto medio
   - Nodos no equiespaciados, cuadraturas de Gauss:
