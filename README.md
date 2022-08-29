@@ -34,5 +34,5 @@ Métodos numéricos en MATLAB | Python | R
 
 
 ## Polinomios
-Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss
+Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss.
   - Legendre ( Python | R )
