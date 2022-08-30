@@ -13,21 +13,33 @@ Métodos numéricos en MATLAB | Python | R
   - Extrapolación de Richardson ( Matlab | Python | R )
 
 ## Integración Simple y múltiple
-  - Nodos equiespaciados, fórmulas de Newton-Cotes:
-    - Métodos cerrados:
-      - Método de los trapecios simple ( Matlab | Python | R )
-      - Método de los trapecios compuesto ( Matlab | Python | R )
-      - Método de Simpson simple ( Matlab | Python | R )
-      - Método de Simpson compuesto ( Matlab | Python | R )
-    - Métodos abiertos:
-      - Punto medio simple ( Matlab | Python | R )
-      - Punto medio compuesto ( Matlab | Python | R )
+  -Simple:
+    - Nodos equiespaciados, fórmulas de Newton-Cotes:
+      - Métodos cerrados:
+        - Método de los trapecios simple ( Matlab | Python | R )
+        - Método de los trapecios compuesto ( Matlab | Python | R )
+        - Método de Simpson simple ( Matlab | Python | R )
+        - Método de Simpson compuesto ( Matlab | Python | R )
+      - Métodos abiertos:
+        - Punto medio simple ( Matlab | Python | R )
+        - Punto medio compuesto ( Matlab | Python | R )
 
-  - Nodos no equiespaciados, cuadraturas de Gauss:
-      - Gauss-Legendre ( Python | R )
-      - Gauss-Hermite
-      - Gauss-Chebyshev ( Python | R )
-      - Gauss-Laguerre ( Python | R )
+    - Nodos no equiespaciados, cuadraturas de Gauss:
+        - Gauss-Legendre ( Python | R )
+        - Gauss-Hermite ( Python | R )
+        - Gauss-Chebyshev ( Python | R )
+        - Gauss-Laguerre ( Python | R )
+  
+  - Multiple:
+    - Nodos equiespaciados:
+      - Método de los trapecios
+      - Método de Simpson
+    - Nodos no equiespaciados:
+        - Gauss-Legendre 
+        - Gauss-Hermite 
+        - Gauss-Chebyshev 
+        - Gauss-Laguerre 
+
 
 ## Resolución de sistemas
   - Crout tridiagonales ( Matlab | Python | R )
@@ -38,3 +50,4 @@ Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios p
   - Legendre ( Python | R )
   - Chebyshev ( Python | R )
   - Laguerre ( Python | R )
+  - Hermite ( Python | R )
