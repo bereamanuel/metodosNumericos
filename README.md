@@ -13,7 +13,8 @@ Métodos numéricos en MATLAB | Python | R
   - Extrapolación de Richardson ( Matlab | Python | R )
 
 ## Integración Simple y múltiple
-  -Simple:
+  
+  - Simple:
     - Nodos equiespaciados, fórmulas de Newton-Cotes:
       - Métodos cerrados:
         - Método de los trapecios simple ( Matlab | Python | R )
