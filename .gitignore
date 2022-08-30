@@ -1,1 +1,4 @@
-*.pyc
+Integracion/python/nodosNoEquiespaciados/__pycache__
+Integracion/python/nodosNoEquiespaciados/__pycache__/chebyshev.cpython-310.pyc
+Integracion/python/nodosNoEquiespaciados/__pycache__/laguerre.cpython-310.pyc
+Integracion/python/nodosNoEquiespaciados/__pycache__/legendre.cpython-310.pyc
