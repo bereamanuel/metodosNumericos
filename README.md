@@ -27,7 +27,7 @@ Métodos numéricos en MATLAB | Python | R
       - Gauss-Legendre ( Python | R )
       - Gauss-Hermite
       - Gauss-Chebyshev ( Python | R )
-      - Gauss-Laguerre
+      - Gauss-Laguerre ( Python | R )
 
 ## Resolución de sistemas
   - Crout tridiagonales ( Matlab | Python | R )
@@ -37,3 +37,5 @@ Métodos numéricos en MATLAB | Python | R
 Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss.
   - Legendre ( Python | R )
   - Chebyshev ( Python | R )
+  - Laguerre ( Python | R )
+  - Hermite (  )
