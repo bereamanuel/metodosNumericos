@@ -26,7 +26,7 @@ Métodos numéricos en MATLAB | Python | R
   - Nodos no equiespaciados, cuadraturas de Gauss:
       - Gauss-Legendre ( Python | R )
       - Gauss-Hermite
-      - Gauss-Chebyshev
+      - Gauss-Chebyshev ( Python | R )
       - Gauss-Laguerre
 
 ## Resolución de sistemas
@@ -36,3 +36,4 @@ Métodos numéricos en MATLAB | Python | R
 ## Polinomios
 Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss.
   - Legendre ( Python | R )
+  - Chebyshev ( Python | R )
