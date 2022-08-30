@@ -18,3 +18,4 @@ def gaussLegendre(f, a, b, n):
         return(I)
 
 print(gaussLegendre(lambda x : exp(-(x**2)) , 1, 1.5, n=3))
+

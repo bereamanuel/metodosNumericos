@@ -38,4 +38,3 @@ Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios p
   - Legendre ( Python | R )
   - Chebyshev ( Python | R )
   - Laguerre ( Python | R )
-  - Hermite (  )
