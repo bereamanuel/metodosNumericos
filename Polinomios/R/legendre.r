@@ -34,6 +34,4 @@ coefLegendre <- function(n){
   }
   return(ci)
 }
-#Necesitamos estas funciones para poder hacer la cuadratura de Gauss-Legrendre
-n <- 3
-coefLegendre(n)
+

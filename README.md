@@ -24,7 +24,7 @@ Métodos numéricos en MATLAB | Python | R
       - Punto medio compuesto ( Matlab | Python | R )
 
   - Nodos no equiespaciados, cuadraturas de Gauss:
-      - Gauss-Legendre
+      - Gauss-Legendre ( Python | R )
       - Gauss-Hermite
       - Gauss-Chebyshev
       - Gauss-Laguerre
