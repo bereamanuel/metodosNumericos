@@ -21,6 +21,7 @@ Métodos numéricos en MATLAB | Python | R
         - Método de los trapecios compuesto ( Matlab | Python | R )
         - Método de Simpson simple ( Matlab | Python | R )
         - Método de Simpson compuesto ( Matlab | Python | R )
+
       - Métodos abiertos:
         - Punto medio simple ( Matlab | Python | R )
         - Punto medio compuesto ( Matlab | Python | R )
@@ -32,9 +33,11 @@ Métodos numéricos en MATLAB | Python | R
         - Gauss-Laguerre ( Python | R )
   
   - Multiple:
+
     - Nodos equiespaciados:
       - Método de los trapecios
       - Método de Simpson
+      
     - Nodos no equiespaciados:
         - Gauss-Legendre 
         - Gauss-Hermite 
