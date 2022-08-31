@@ -57,10 +57,25 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
     - Adams-Bashforth (Método explícito) 
     - Adams-Moulton (Método Implícito) 
     - Predictor-corrector 
+  
+  - Problemas Stiff
 
-## Resolución de sistemas
+## Sistemas de ecuaciones lineales
+  - Métodos directos:
+    - Método de Cramer
+    - Método de eliminación de Gauss
+
+  - Métodos iteretivos
+    - Método Jacobi
+    - Método Gauss-Seidel
+    - Método JSOR
+    - Método SOR
+
   - Crout tridiagonales ( Matlab | Python | R )
 
+## Ecuaciones no lineales
+  
+## Sistemas de ecuaciones no lineales
 
 ## Polinomios
 Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss.
