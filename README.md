@@ -44,6 +44,19 @@ Métodos numéricos en MATLAB | Python | R
         - Gauss-Chebyshev ( Python | R )
         - Gauss-Laguerre ( Python | R )
 
+## Métodos númericos para EDOs: Problema del valor inicial (PVI)
+Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes de primer orden, sistemas de ecuaciones diferenciales de primer orden y ecuaciones diferenciales de orden superior.
+  - Métodos de un paso:
+    - Euler Explicito  ( Python )
+    - Euler Implicito
+    - Euler Mejorado
+    - Heun 
+    - Runge-Kutta 
+
+  - Métodos multipaso:
+    - Adams-Bashforth (Método explícito) 
+    - Adams-Moulton (Método Implícito) 
+    - Predictor-corrector 
 
 ## Resolución de sistemas
   - Crout tridiagonales ( Matlab | Python | R )
