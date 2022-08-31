@@ -7,8 +7,10 @@ def gaussHermite(f,n,m,kn,km):
     # debemos tener encuenta que la I es la suma de f(x)*c , no w(x)*f(x)*c.
     # INPUT
     # f: función a integrar
-    # n: Número de nodos que queremos utilizar para la estimación.
-    # k: Constante que aparece si hacemos cambios de variable
+    # n: Número de nodos que queremos utilizar para la estimación en x.
+    # kn: Constante que aparece si hacemos cambios de variable en x.
+    # m: Número de nodos que queremos utilizar para la estimación en y.
+    # km: Constante que aparece si hacemos cambios de variable en y.
     coefsN = coefHermite(n)
     coefsM = coefHermite(m)
     I =  0
