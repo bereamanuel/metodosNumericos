@@ -39,7 +39,7 @@ Métodos numéricos en MATLAB | Python | R
       - Método de Simpson ( Python | R )
       
     - Nodos no equiespaciados:
-        - Gauss-Legendre 
+        - Gauss-Legendre ( Python | R )
         - Gauss-Hermite 
         - Gauss-Chebyshev 
         - Gauss-Laguerre 
