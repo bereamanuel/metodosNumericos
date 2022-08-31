@@ -42,7 +42,7 @@ Métodos numéricos en MATLAB | Python | R
         - Gauss-Legendre ( Python | R )
         - Gauss-Hermite ( Python | R )
         - Gauss-Chebyshev ( Python | R )
-        - Gauss-Laguerre 
+        - Gauss-Laguerre ( Python | R )
 
 
 ## Resolución de sistemas
