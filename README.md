@@ -35,8 +35,8 @@ Métodos numéricos en MATLAB | Python | R
   - Multiple:
 
     - Nodos equiespaciados:
-      - Método de los trapecios
-      - Método de Simpson
+      - Método de los trapecios ( Python | R )
+      - Método de Simpson ( Python | R )
       
     - Nodos no equiespaciados:
         - Gauss-Legendre 
