@@ -49,8 +49,7 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
   - Métodos de un paso:
     - Euler Explicito  ( Matlab | Python | R )
     - Euler Implicito ( Matlab | Python | R )
-    - Euler Mejorado
-    - Heun 
+    - Heun  ( Matlab | Python | R )
     - Runge-Kutta 
 
   - Métodos multipaso:

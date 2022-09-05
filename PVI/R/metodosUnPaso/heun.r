@@ -1,5 +1,5 @@
-eulerE<- function(f,a,b,y0,n){
-  #Con esta función vamos a implementar el método de Euler Explícito
+heun<- function(f,a,b,y0,n){
+  #Con esta función vamos a implementar el método de Heun
   #INPUT:
   #    f:  Función de entrada
   #    a:  Inicio del intervalo
@@ -15,18 +15,21 @@ eulerE<- function(f,a,b,y0,n){
   y <- c(y0)
   
   for (k in seq(2,n+1)){
-    y <- c(y,y[k-1] + h*f(t[k-1],y[k-1]))
+    k1 <- h*f(t[k-1],y[k-1])
+    k2 <- h*f(t[k], y[k-1] + k1)
+    y <- c(y, y[k-1] + k1/2 + k2/2 )
   }
   return(y)
 }
   
 f <- function (t,y){
-  return( -10*y )
+  return( (1-2*t)*y  )
 }
+
 
 a <- 0
 b <- 3
 y0 <- 1
 
-eulerE(f,a,b,y0,4)
+heun(f,a,b,y0,16)
   
