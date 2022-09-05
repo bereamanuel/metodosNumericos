@@ -47,8 +47,8 @@ Métodos numéricos en MATLAB | Python | R
 ## Métodos númericos para EDOs: Problema del valor inicial (PVI)
 Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes de primer orden, sistemas de ecuaciones diferenciales de primer orden y ecuaciones diferenciales de orden superior.
   - Métodos de un paso:
-    - Euler Explicito  ( Python )
-    - Euler Implicito
+    - Euler Explicito  ( Matlab | Python | R )
+    - Euler Implicito ( Matlab | Python | R )
     - Euler Mejorado
     - Heun 
     - Runge-Kutta 
