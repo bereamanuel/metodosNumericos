@@ -29,7 +29,6 @@ def f(t,Y):
     import numpy as np
     from math import exp
     F = np.array( [[3 , 2] , [4, 1]] )
-    print(np.dot(F,Y))
     return( np.dot(F,Y) + np.array([[-(2*t**2 + 1)*exp(2*t)], [(t**2 + 2*t + -4)*exp(2*t)]]) )
 
 
