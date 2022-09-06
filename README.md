@@ -58,7 +58,10 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
     - Adams-Moulton (Método Implícito) ( Matlab | Python | R )
     - Predictor-corrector ( Matlab | Python | R )
   
-  - Problemas Stiff
+  - Problemas Stiff:
+    En matlab utilizaremos la función ode15s
+    En python podemos utilizar la librería scipy, con el comando scipy.integrate.ode(f).set_integrator('vode', method='bdf', order=15)
+    En R podemos utilizar Librería pracma, con la función ode45
 
 ## Sistemas de ecuaciones lineales
   - Métodos directos:
