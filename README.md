@@ -51,7 +51,7 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
     - Euler Implicito ( Matlab | Python | R )
     - Heun  ( Matlab | Python | R )
     - Runge-Kutta ( Matlab | Python | R )
-    - Euler Sistemas ( Matlab )
+    - Euler Sistemas ( Matlab | Python | R )
 
   - Métodos multipaso:
     - Adams-Bashforth (Método explícito) 
