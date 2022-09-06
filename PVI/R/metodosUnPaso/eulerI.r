@@ -33,13 +33,13 @@ eulerI <- function(f,df,a,b,y0,n,tol,maxiter){
       dif <- abs(x1-x0)
       i <- i + 1
       x0 <- x1
-      y <- c(y,y[k]+h*f(t[k+1],x0))
       if (i > iter){
         condition <- FALSE
       } else if ( !isTRUE(dif - tol < 0) ){
         condition <- FALSE
       }
     }
+    y <- c(y,y[k]+h*f(t[k+1],x0))
   }
   return(y)
 }

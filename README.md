@@ -54,8 +54,8 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
     - Euler Sistemas ( Matlab | Python | R )
 
   - Métodos multipaso:
-    - Adams-Bashforth (Método explícito) ( Python | R )
-    - Adams-Moulton (Método Implícito) 
+    - Adams-Bashforth (Método explícito) ( Matlab | Python | R )
+    - Adams-Moulton (Método Implícito) ( Matlab | Python | R )
     - Predictor-corrector 
   
   - Problemas Stiff
