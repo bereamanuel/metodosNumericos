@@ -67,7 +67,6 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
   - Métodos directos:
   
   Para utilizar los método directos y resolver problemas del estilo $Ax = b$, necesitamos que $A$ sea invertible.
-    
     - Método de Cramer
     - Método de eliminación de Gauss
 
