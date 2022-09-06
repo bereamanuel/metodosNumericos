@@ -56,7 +56,7 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
   - Métodos multipaso:
     - Adams-Bashforth (Método explícito) ( Matlab | Python | R )
     - Adams-Moulton (Método Implícito) ( Matlab | Python | R )
-    - Predictor-corrector 
+    - Predictor-corrector ( Matlab | Python | R )
   
   - Problemas Stiff
 
