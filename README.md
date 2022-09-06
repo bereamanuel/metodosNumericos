@@ -65,14 +65,11 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
 
 ## Sistemas de ecuaciones lineales
   - Métodos directos:
-  
-  Para utilizar los método directos y resolver problemas del estilo $Ax = b$, necesitamos que $A$ sea invertible.
-
-    - Método de Cramer
-    - Método de eliminación de Gauss
+    Para utilizar los método directos y resolver problemas del estilo $Ax = b$, necesitamos que $A$ sea invertible. Además, la dimensión de la matriz no debe ser grande.
+    Como en general queremos calcular matrices con dimensión grande. Vamos a desarrollar métodos iterativos.
 
   - Métodos iteretivos
-    - Método Jacobi
+    - Método Jacobi 
     - Método Gauss-Seidel
     - Método JSOR
     - Método SOR
