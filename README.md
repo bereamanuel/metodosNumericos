@@ -71,8 +71,8 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
   - Métodos iteretivos
     - Método Jacobi ( Matlab | Python | R)
     - Método Gauss-Seidel ( Matlab | Python | R)
-    - Método JSOR
-    - Método SOR
+    - Método JSOR ( Matlab | Python | R)
+    - Método SOR ( Matlab | Python | R)
 
   - Crout tridiagonales ( Matlab | Python | R )
 
