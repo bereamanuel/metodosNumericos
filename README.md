@@ -78,6 +78,10 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
 
 ## Ecuaciones no lineales
   
+  Vamos a utilizar métodos iterativos, crearemos un script para Newton y otro comentado donde hay que cambiar, para en función del método a utilizar poder modificarlo rápidamente
+  - Newton ( Python | R)
+
+  
 ## Sistemas de ecuaciones no lineales
 
 ## Polinomios
