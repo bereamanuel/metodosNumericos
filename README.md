@@ -69,8 +69,8 @@ Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes
     Como en general queremos calcular matrices con dimensión grande. Vamos a desarrollar métodos iterativos.
 
   - Métodos iteretivos
-    - Método Jacobi 
-    - Método Gauss-Seidel
+    - Método Jacobi ( Matlab | Python | R)
+    - Método Gauss-Seidel ( Matlab | Python | R)
     - Método JSOR
     - Método SOR
 
