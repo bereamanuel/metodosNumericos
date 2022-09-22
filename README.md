@@ -45,8 +45,11 @@ Métodos numéricos en MATLAB | Python | R
         - Gauss-Laguerre ( Python | R )
 
 ## Métodos númericos para EDOs: 
+
 ### Problema del valor inicial (PVI)
+
   Vamos a tratar de resolver problemas de valor inicial de ecuaciones diferenciaes de primer orden, sistemas de ecuaciones diferenciales de primer orden y ecuaciones diferenciales de orden superior.
+  
     - Métodos de un paso:
       - Euler Explicito  ( Matlab | Python | R )
       - Euler Implicito ( Matlab | Python | R )
@@ -76,8 +79,10 @@ Métodos numéricos en MATLAB | Python | R
     
 
 ## Sistemas de ecuaciones lineales
+
   - Métodos directos:
     Para utilizar los método directos y resolver problemas del estilo $Ax = b$, necesitamos que $A$ sea invertible. Además, la dimensión de la matriz no debe ser grande.
+    
     Como en general queremos calcular matrices con dimensión grande. Vamos a desarrollar métodos iterativos.
 
   - Métodos iteretivos
@@ -91,6 +96,7 @@ Métodos numéricos en MATLAB | Python | R
 ## Ecuaciones no lineales
   
   Vamos a utilizar métodos iterativos, crearemos un script para Newton y otro comentado donde hay que cambiar, para en función del método a utilizar poder modificarlo rápidamente
+  
   - Newton ( Python | R)
 
   
