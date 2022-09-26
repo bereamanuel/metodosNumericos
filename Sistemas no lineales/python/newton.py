@@ -58,12 +58,19 @@ def newton(f,x0,tol,maxiter,df = lambda x: x):
                 "i":i,
                 "ACOC": "Elige otra norma"})
 
-from math import sin, cos
+from math import sin, cos, exp
 
-f = lambda x : sin(x**2) - x**2 + 1
-df = lambda x : 2*x*( cos(x**2) - 1)
+# f = lambda x : sin(x**2) - x**2 + 1
+# f = lambda x : x**2 - exp(x) - 3*x + 2
+# f = lambda x : cos(x) - x
+f = lambda x : (x-1)**3 - 1
 
-x0 = 1
+# df = lambda x : 2*x*cos(x**2) - 2*x
+# df = lambda x : 2*x - exp(x) - 3
+# df = lambda x : -sin(x) - 1
+df = lambda x : 3*(x-1)**2
+
+x0 = 1.7
 
 tol = 10**(-10)
 maxiter = 100 
