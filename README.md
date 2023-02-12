@@ -97,7 +97,8 @@ Métodos numéricos en MATLAB | Python | R
   
   Vamos a utilizar métodos iterativos, crearemos un script para Newton y otro comentado donde hay que cambiar, para en función del método a utilizar poder modificarlo rápidamente
   
-  - Newton ( Python | R)
+  - Newton (Matlab | Python | R)
+  - Jarrat (Matlab)
 
   
 ## Sistemas de ecuaciones no lineales
