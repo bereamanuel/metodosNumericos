@@ -102,6 +102,11 @@ Métodos numéricos en MATLAB | Python | R
 
   
 ## Sistemas de ecuaciones no lineales
+  Vamos a utilizar métodos iterativos, crearemos un script para Newton y otro comentado donde hay que cambiar, para en función del método a utilizar poder modificarlo rápidamente
+  
+  - Newton (Matlab)
+  - Jarrat (Matlab)
+
 
 ## Polinomios
 Funciones que nos ayudan a conseguir las raíces y los coeficientes necesarios para hacer cuadraturas de Gauss.
